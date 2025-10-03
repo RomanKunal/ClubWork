@@ -1,6 +1,7 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:5000/api';
+// const API_URL = 'http://localhost:5000/api';
+const API_URL = 'https://myapp-hifk.onrender.com/api';  // Render backend URL
 
 // Create axios instance
 const api = axios.create({
